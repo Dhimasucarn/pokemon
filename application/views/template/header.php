@@ -113,9 +113,9 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="hero__text">
-                <div class="label">Adventure</div>
-                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
-                <p>After 30 days of travel across the world...</p>
+                <div class="label">POKERAID</div>
+                <h2>Get recommendation to win the game with friends !!!</h2>
+                <p>Get Tips n Trick and Tutorial from our Expert !!!</p>
 
               </div>
             </div>
@@ -125,9 +125,9 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="hero__text">
-                <div class="label">Adventure</div>
-                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
-                <p>After 30 days of travel across the world...</p>
+                <div class="label">POKERAID</div>
+                <h2>Get recommendation to win the game with friends !!!</h2>
+                <p>Get Tips n Trick and Tutorial from our Expert !!!</p>
 
               </div>
             </div>
@@ -137,9 +137,9 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="hero__text">
-                <div class="label">Adventure</div>
-                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
-                <p>After 30 days of travel across the world...</p>
+                <div class="label">POKERAID</div>
+                <h2>Get recommendation to win the game with friends !!!</h2>
+                <p>Get Tips n Trick and Tutorial from our Expert !!!</p>
 
               </div>
             </div>
