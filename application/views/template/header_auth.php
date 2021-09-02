@@ -9,6 +9,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>PokeRaid</title>
 
+      <link rel="icon" type="image/x-icon" href="<?= base_url('assets/');?>icon tab.ico" />
       <!-- Google Font -->
       <link rel="stylesheet" href="<?= base_url('assets/');?>style.css">
       <link href="<?=base_url('assets/');?>image-picker/image-picker.css" rel="stylesheet" type="text/css">

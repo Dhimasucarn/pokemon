@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>PokeRaid</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="<?= base_url('assets/');?>icon tab.ico" />
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -42,7 +42,8 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                        <p class="text-white-75 mb-5">This is an application that will help you in playing pokemon go in recommending suitable pokemon to fight in the raid arena with your friends theme let's start your victory
+                        </p>
                         <a class="btn btn-primary btn-xl btn-danger" href="<?=base_url('auth/auth_page');?>">Find Out More</a>
                     </div>
                 </div>

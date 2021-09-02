@@ -12,6 +12,7 @@
       <title>Anime | Template</title>
 
       <!-- Google Font -->
+      <link rel="icon" type="image/x-icon" href="<?= base_url('assets/');?>icon tab.ico" />
       <link rel="stylesheet" href="<?= base_url('assets/');?>style.css">
       <link href="<?=base_url('assets/');?>image-picker/image-picker.css" rel="stylesheet" type="text/css">
 
