@@ -48,9 +48,9 @@
       <div class="row">
         <div class="col-lg-2">
           <div class="header__logo">
-            <a href="./index.html">
-              <img src="img/logo.png" alt="">
-            </a>
+              <a href="<?=base_url('pokemon');?>">
+              <button type="submit" class="site-btn">POKERAID</button>
+              </a>
           </div>
         </div>
         <div class="col-lg-8">
@@ -58,26 +58,23 @@
             <nav class="header__menu mobile-menu">
               <ul>
                 
-                <?php if($this->uri->segment(2) == '' || $this->uri->segment(2) == 'boss'):?>
+                <?php if($this->uri->segment(2) == ''|| $this->uri->segment(2) == 'index' ):?>
                 <li class="active"><a href="<?=base_url('pokemon');?>">Homepage</a></li>
                 <?php else:?>
                 <li><a href="<?=base_url('pokemon');?>">Homepage</a></li>  
                 <?php endif;?>
 
                 <?php if($this->uri->segment(2) == 'my_pokemon'):?>
-                <li class="active"><a href="#">My Data<span class="arrow_carrot-down"></span></a>
+                <li class="active"><a href="<?=base_url('pokemon/my_pokemon');?>">My Pokemon</a></li>  </a>
                 <?php else:?>
-                <li><a href="#">My Data<span class="arrow_carrot-down"></span></a>
+                <li><a href="<?=base_url('pokemon/my_pokemon');?>">My Pokemon</a></li>  
                 <?php endif;?>
-                  <ul class="dropdown">
-                    <li><a href="<?=base_url('pokemon/my_pokemon');?>">My Pokemon</a></li>
-                    <li><a href="./anime-details.html">My Profile</a></li>
-                    <li><a href="./anime-watching.html">History</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Get Recomendation</a></li>
-                <li><a href="#">Tips n Trick</a></li>
-                <li><a href="#">Tutorial</a></li>
+
+                <?php if($this->uri->segment(2) == 'getrecomendation' || $this->uri->segment(2) == 'boss' ):?>
+                <li class="active"><a href="<?=base_url('pokemon/getrecomendation');?>">Get Recomendation</a></li>  </a>
+                <?php else:?>
+                <li><a href="<?=base_url('pokemon/getrecomendation');?>">Get Recomendation</a></li> 
+                <?php endif;?> 
               </ul>
             </nav>
           </div>

@@ -45,7 +45,7 @@
           <div class="col-lg-2">
             <div class="header__logo">
               <a href="<?=base_url('auth');?>">
-                PokeRaid<img src="img/logo.png" alt="">
+              <button type="submit" class="site-btn">POKERAID</button>
               </a>
             </div>
           </div>

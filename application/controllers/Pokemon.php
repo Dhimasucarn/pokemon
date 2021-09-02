@@ -31,7 +31,15 @@ class Pokemon extends CI_Controller {
 	
 	}
 
-	public function index()
+	public function index()//home dashboard
+	{
+		
+		$this->load->view('template/header');
+		$this->load->view('template/footer_home');
+		
+	}
+
+	public function getrecomendation()
 	{
 		$my_pokemon = $this->Pokemon_model->myPokemon();
 		if(count($my_pokemon) == 6){
@@ -98,7 +106,7 @@ class Pokemon extends CI_Controller {
 		$this->session->set_flashdata('message','<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Success</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
 						</button>
 						</div>');
-		redirect('pokemon');	
+		redirect('pokemon/getrecomendation');	
 	}
 	
 
@@ -111,14 +119,14 @@ class Pokemon extends CI_Controller {
 			$this->session->set_flashdata('message','<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Please Select 6 pokemon</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
 						</button>
 						</div>');
-			redirect('pokemon');
+			redirect('pokemon/getrecomendation');
 			}
 
 			elseif(count($my_pokemon) < 6){
 				foreach ($_POST['yaha'] as $nama_pokemon ) {
 					$this->Pokemon_model->addPokemon($nama_pokemon);	# code...
 				}
-				redirect('pokemon');
+				redirect('pokemon/getrecomendation');
 			}
 
 			// if(count($my_pokemon) < 6){
