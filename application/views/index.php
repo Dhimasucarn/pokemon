@@ -41,11 +41,11 @@
                   <div class="product__item">   
                       <center class="m-t-30"> <a href="#" data-toggle="modal" data-target="#exampleModal<?=$b->name;?>">
                         <div class="product__item__pic set-bg" data-setbg="<?= base_url('assets/images/boss/'.$b->name.'.gif');?>">
-                          <div class="ep"><?=$p->primary;?></div>
+                          <div class="ep"><?=$b->primary;?></div>
                           <div class="comment">SELECT</div>
                         </div>
                         <div class="product__item__text">
-                          <h5><a href="#"><?=$p->name;?></a></h5>
+                          <h5><a href="#"><?=$b->name;?></a></h5>
                         </div>
                       </center>
 
